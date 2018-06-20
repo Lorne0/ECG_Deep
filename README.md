@@ -35,7 +35,7 @@ Then you'll get **data_NLRAV.pk** under the directory. Then run
                             
 You'll get **save_file_name** in /result. To easily run on different random seeds for multiple times, we save the result in the **save_file_name**, you can use
 
-    python check_result.py save_file_name
+    python check_result.py <save_file_name>
                                     
 to count the average performance in the **save_file_name**.
 
